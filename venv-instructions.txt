@@ -1,0 +1,29 @@
+pi@raspberrypi:~/src/py-net-check $ ll
+total 0
+
+pi@raspberrypi:~/src/py-net-check $ virtualenv venv
+created virtual environment CPython3.7.3.final.0-32 in 2318ms
+  creator CPython3Posix(dest=/home/pi/src/py-net-check/venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/pi/.local/share/virtualenv)
+    added seed packages: pip==21.1.2, setuptools==57.0.0, wheel==0.36.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+pi@raspberrypi:~/src/py-net-check $ ll
+total 4.0K
+drwxr-xr-x 4 pi pi 4.0K Jun  8 20:37 venv
+
+pi@raspberrypi:~/src/py-net-check $ python --version
+Python 2.7.16
+
+pi@raspberrypi:~/src/py-net-check $ source venv/bin/activate
+
+(venv) pi@raspberrypi:~/src/py-net-check $ python --version
+Python 3.7.3
+
+(venv) pi@raspberrypi:~/src/py-net-check $ pip list
+Package    Version
+---------- -------
+pip        21.1.2
+setuptools 57.0.0
+wheel      0.36.2
+
